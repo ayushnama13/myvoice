@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Launcher: runs myvoice.py with this project's virtualenv, from any directory.
+DIR="$(cd "$(dirname "$(readlink -f "$0")")" && pwd)"
+exec "$DIR/.venv/bin/python" "$DIR/myvoice.py" "$@"
