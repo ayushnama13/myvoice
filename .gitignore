@@ -1,4 +1,13 @@
 .venv/
-samples/
+samples/*
 out/
 __pycache__/
+.env
+.env.*
+!.env.example
+!.env.template
+*.pyc
+.DS_Store
+*.pem
+*.jks
+!samples/.gitkeep
